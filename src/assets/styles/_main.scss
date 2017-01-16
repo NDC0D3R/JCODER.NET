@@ -1,0 +1,549 @@
+
+.logo{
+  position: relative;
+  
+  min-height: 510px;
+  min-width:300px;
+  background-image: url('../images/Logo.visitenkarte_504.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+
+.FotoCV{
+  max-height: 300px;
+}
+
+.row{
+min-height: 10px; 
+ }
+
+body{
+  // background-color: #24262c !important;
+  background-color: none !important;
+ color:#24262c;
+ 
+  font: bolder Arial, Helvetica, sans-serif;
+}
+ 
+.progress{
+  position: relative;
+  text-align: center;
+  width: 33%;
+  margin-left:33%;
+  margin-top:25%;
+  margin-right:33%;
+
+}
+
+.contentText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+font-style: bolder;
+max-width: auto;
+color: #FFF;
+text-align: center;
+}
+
+@media only screen 
+  and (min-width: 10px) 
+  and (max-width: 320px)
+   {
+.FotoCV{
+  max-width: 50px;
+  }
+}
+
+body{
+  overflow-y: scroll;
+}
+
+// #imprint{
+ 
+//   text-align: center;
+//   margin-left:33%;
+//   margin-bottom: 80%;
+//   margin-right: 33%;
+// }
+.col-md-1,.col-md-6 ,button{
+  padding: 10px;
+}
+/* media queries */
+
+
+@media only screen 
+  and (max-width: 320px) 
+   {
+.FotoCV{
+  max-width: 100px;
+  }
+
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+   {
+.FotoCV{
+  max-width: 100px;
+  }
+
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  
+  and (orientation: portrait) {
+    .FotoCV{
+  max-width: 100px;
+  }
+
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  
+  and (orientation: landscape) {
+    .FotoCV{
+  max-width: 100px;
+
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+   {
+.FotoCV{
+  max-width: 100px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+  {
+    .FotoCV{
+  max-width: 100px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 568px)
+ {
+    .FotoCV{
+  max-width: 100px;
+  }
+.logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+   { 
+    .FotoCV{
+  max-width: 100px;
+  }
+.logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_311.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  { 
+.FotoCV{
+  max-width: 100px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_311.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  { 
+.FotoCV{
+  max-height: 200px;
+  }
+   .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_311.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+   { 
+.FotoCV{
+  max-height: 200px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+   { 
+.FotoCV{
+  max-height: 200px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  { 
+.FotoCV{
+  max-height: 200px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/*------ mobile --*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.FotoCV{
+  max-height: 150px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .FotoCV{
+  max-height: 150px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .FotoCV{
+  max-height: 150px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.FotoCV{
+  max-height: 150px;
+  }.logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .FotoCV{
+  max-height: 150px;
+  }.logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .FotoCV{
+  max-height: 150px;
+  }.logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .FotoCV{
+  max-height: 150px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+.FotoCV{
+  max-height: 150px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+.FotoCV{
+  max-height: 200px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.FotoCV{
+  max-height: 200px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+.FotoCV{
+  max-height: 200px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+.FotoCV{
+  max-height: 200px;
+  }
+  .logo{
+  position: relative;
+  min-height: 160px;
+  min-width:150px;
+  background-image: url('../images/Logo.visitenkarte_156.png'); padding: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+}
